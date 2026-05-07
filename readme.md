@@ -17,3 +17,5 @@
 ## -------------------------
 ## run ด้วย
 ## run  nodemon server.js 
+## เปิดใน postman 
+## localhost:5000 
