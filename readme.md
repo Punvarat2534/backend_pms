@@ -16,6 +16,6 @@
 ## npm install mime-types
 ## -------------------------
 ## run ด้วย
-## run  nodemon server.js 
+## nodemon server.js 
 ## เปิดใน postman 
 ## localhost:5000 
