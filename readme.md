@@ -1,4 +1,4 @@
-﻿## 1.git clone https://github.com/Punvarat2534/backend_pms
+﻿## 1.git clone https://github.com/Punvarat2534/backend_pms.git
 ## 2.เมื่อติดตั้งแล้วให้ทำการ install package เหล่านี้ใน project
 ## -------------------------
 ## npm i fastify
