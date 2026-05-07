@@ -1,4 +1,4 @@
-﻿import book_controller from './../controller/book_controller.js'
+﻿import book_controller from '../controller/book_controller.js'
 import jwtValidate  from '../config/jwt.js';
 
 
@@ -12,7 +12,7 @@ async function routes (fastify, options) {
     });
 
     fastify.post('/create',{onRequest : jwtValidate },Book.create);
-    fastify.get('/all/:page',{onRequest : jwtValidate },Book.all);
+    fastify.get('/all',Book.all);
     fastify.get('/pagecount',Book.pagecount);
     fastify.post('/update',{onRequest : jwtValidate }, Book.update);
     fastify.get('/detail/:isbn',{onRequest : jwtValidate },Book.detail);

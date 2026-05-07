@@ -9,15 +9,9 @@ const pump = util.promisify(pipeline);
 class book_controller{
 
     all = async function (req, res, next) {
-        var page = req.params.page;
-        page=page-1;
-        
-        if(page!=0){
-            page=(page*10);
-        }
-
+   
         const result = await Promise.all([
-        client.query('SELECT * from public."book_detail" where deleted_at is null order by id desc limit 10 offset $1',[page])
+        client.query('SELECT * from public."course"')
         ]).then(function([result]) {    
                 var data = {
                     "success":true,

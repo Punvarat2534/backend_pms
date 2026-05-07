@@ -2,10 +2,10 @@
 
 const config = {
   user:"avnadmin",
-  password:"AVNS_q4temUKuILAc_NhZStK", 
-  host:"pg-3147fb60-punvarat-7a2d.k.aivencloud.com",
+  password:"AVNS_ENPGzGIrryeEhU0kBxa", 
+  host:"pg-3289afdd-punvarat-7a2d.i.aivencloud.com",
   port:"22067", 
-  database:"lrclibrary",
+  database:"PMS",
   ssl: {
     rejectUnauthorized: true,
     ca: `-----BEGIN CERTIFICATE-----
